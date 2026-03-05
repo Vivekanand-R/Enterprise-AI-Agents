@@ -80,14 +80,6 @@ Architecture: (Linear Execution Top to Bottom)
 **Architecture: (More Autonomous Execution):**
 
 <img width="793" height="531" alt="image" src="https://github.com/user-attachments/assets/90015ded-1576-4a3d-a7f4-97324ca75164" />
-
-
-**Sample Live Results:**
-
-<img width="1642" height="537" alt="image" src="https://github.com/user-attachments/assets/27e2d800-2057-4e39-a3dc-21421cc0159e" />
-
-<img width="1150" height="601" alt="image" src="https://github.com/user-attachments/assets/a2458510-78dd-417d-b554-75afa02d8e16" />
-
        
 A strong foundation in financial knowledge is prefered for this work. It aims to explore and apply AI agent technologies within the fintech and automation sectors, focusing on practical and innovative use cases.
   
