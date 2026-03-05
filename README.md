@@ -63,7 +63,7 @@ Vision: To explore and harness agentic AI in global financial markets using **cl
 
 **Cloud Requirement's:** Azure Cloud Virtual Machine 24x7, Batch, Python, Task Scheduler, Databrics, APIs, Financial Knowlegde, Virtual Currency and Risk Management.
 
-Financial API's Requirements: IBKR Historical Data (s - subscription) , Yfinance (Open Source), Alpha Vantage (s) , Polygon.io (s) and Zerodha (s)
+Financial API's Requirements: IBKR Historical Data (s - subscription) , Yfinance (OS), Alpha Vantage (s) , Polygon.io (s) and Zerodha (s)
 
 Application Requirement's: IBKR Workstation - Papertrading Application, Zerodha Kite
 
