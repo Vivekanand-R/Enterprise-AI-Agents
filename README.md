@@ -114,6 +114,31 @@ Optional AI hosting: Hugging Face Inference API or OpenAI API
 
 **Tech Stack Using NVIDIA Ecosystem:** LLM Inference | Model Serving | NLP/Intent Detection | Backend | Wearable Integration | Scheduling & Reminders | Cloud Deployment | Containerization | Monitoring
 
+**Advanced - Multi Model Agentic workflow (end-to-end):** 
+
+                1. CT/X-Ray Clinicials uploads/requests analysis → system ingests study + context
+                
+                2. Vision AI produces segmentation/detection + measurements + QC
+                
+                3. NLP extracts problems + context + contradictions
+                
+                4. Retrieval pulls protocol/guideline evidence relevant to case
+
+LLM composes:
+                (a) “Image Findings Summary”
+                
+                (b) “Clinical Summary”
+                
+                (c) “Recommendations + Rationale + Citations”
+                
+                (d) “Uncertainty + QC + what to verify”
+                
+UI displays overlays + structured outputs + “explainability” panels
+
+Imaging AI Models: CNN/Transformer-based medical vision models (e.g., U-Net / nnU-Net / Swin-UNETR / ViT) for CT/X-ray segmentation, detection, and quantitative measurements.
+
+Language & Reasoning Models: Clinical LLMs (GPT-4 / Claude / LLaMA) combined with clinical NLP models (BioBERT / ClinicalBERT) for summarization, reasoning, guideline-based recommendations, and uncertainty reporting.
+
 ----------------------------------------
 
 
