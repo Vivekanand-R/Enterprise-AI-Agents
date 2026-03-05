@@ -55,7 +55,7 @@ List of AI Agents Protocol's:
 ----------------------------------------
                          
 
- **Agent 2 - Finance Analyst: Automating Fintech And Equity Transactions** [Completed Version]
+ **Agent 2 - Finance Analyst: Automating Fintech Transactions** [Completed Version]
 
 Vision: To explore and harness agentic AI in global financial markets using **cloud-native infrastructure** for real-time, intelligent fintech actions. Enabling precision and speed through scalable, autonomous decision-making.
 
@@ -116,7 +116,7 @@ Optional AI hosting: Hugging Face Inference API or OpenAI API
 
 **Advanced - Multi Model Agentic workflow (end-to-end):** 
 
-                1. CT/X-Ray Clinicials uploads/requests analysis → system ingests study + context
+                1. Clinicials uploads/requests analysis → system ingests study + context
                 
                 2. Vision AI produces segmentation/detection + measurements + QC
                 
@@ -200,14 +200,6 @@ A multi-modal, AI-native observability platform that:
                 G. Blockchain-backed immutable logs (optional).
 
 
-**Devices / Equipment Across Industries**
-
-                **A. Manufacturing & Robotics** CNC machines, Assembly line robots, Welding robots, 3D printers, Industrial sensors (temperature, vibration, pressure)
-                **B. Energy & Utilities:** Turbines (wind, gas, hydro), Generators, Transformers, Smart meters, Grid controllers
-                **C. Smart Factories / IoT** Edge gateways, PLCs (Programmable Logic Controllers), Industrial IoT devices (sensors, actuators), Conveyor systems, Smart warehouse robots
-                **D. Healthcare & MedTech:** CT scanners, MRI machines, Ultrasound machines, X-ray equipment, Patient monitoring systems
-                **E. Transportation & Mobility:** Autonomous vehicles (sensors, LIDAR, cameras), EV charging stations, Railway signaling systems
-                **F. Engines & systems:** Fleet telematics devices, Cybersecurity & IT Infrastructure, Firewalls & IDS/IPS systems, Application servers & databases, Cloud workloads (containers, microservices), Industrial control systems (SCADA, DCS), Blockchain nodes (for immutable logging)
 
 **Use Cases:** Predict machine downtime, detect cyber threats, summarize IoT floods, Field operators query with alerts/voice, SME's will get AI reports.
 
