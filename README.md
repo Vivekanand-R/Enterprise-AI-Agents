@@ -1,4 +1,4 @@
-# Agentic-AI-Framework  
+# Agentic AI  
 
 **Designing, Building, and Scaling Agentic AI Systems, Products, and Organizations**
 
@@ -40,27 +40,74 @@ It starts from real-world workflows, user intent, and business outcomes — and 
 
 ---
 
-## 2. Why This Framework Exists
+---
 
-Many AI initiatives fail not due to weak models, but due to poor alignment with enterprise systems and goals.
+## 2. Repository Structure (Projects)
 
-Agentic AI introduces both opportunity and risk:
+Each folder below represents a **standalone implementation of a specific agentic pattern**, focusing on different system designs, architectures, and capabilities.
 
-- Misaligned autonomous decisions  
-- Weak governance and control  
-- Poor tool and workflow integration  
-- Unclear human vs agent responsibilities  
-- Experimental systems without scalable operating models  
-
-This framework helps teams:
-
-- Decide when *not* to use agents  
-- Define the right level of autonomy  
-- Align agent behavior with business outcomes  
-- Build reliable, scalable, and auditable systems  
-- Think across product, workflow, organization, and strategy  
+| Project Folder                   | Agent Type           | Tech Stack               | Status          |
+|----------------------------------|----------------------|--------------------------|---------------- |
+| agent-01-research Assistant      | ReAct Loop           | LangGraph / OpenAI       | ✅ Completed    |
+| agent-02-finance expert          | Multi-Agent Swarm    | CrewAI / Llama 3         | ✅ Completed    |
+| agent-05-observability expert    | Self-Healing Coder   | AutoGen / GPT-4o         | 🏗️ In Progress  |
+| shared-lib                       | Utilities            | Python / Pydantic        | 🛠️ Core         |
 
 ---
+
+## Core Research Pillars
+
+This framework is grounded in key areas of Agentic AI system design:
+
+### A. Planning & Reasoning
+
+Designing architectures that enable agents to break down complex goals into structured sub-tasks.
+
+Approaches include:
+
+- Chain of Thought (CoT) reasoning  
+- ReAct (Reasoning + Acting) frameworks  
+- Task decomposition and planning loops  
+- Iterative reasoning and execution  
+
+Goal:
+
+> Enable agents to **think before they act**, not just respond.
+
+---
+
+### B. Memory & Context
+
+Exploring how agents maintain and utilize context across interactions.
+
+Includes:
+
+- Short-term memory (conversation state, context windows)  
+- Long-term memory (vector databases, retrieval systems)  
+- Retrieval-Augmented Generation (RAG)  
+- Knowledge persistence and recall  
+
+Goal:
+
+> Build agents with a **working memory and long-term knowledge base**.
+
+---
+
+### C. Tool Use (Function Calling)
+
+Standardizing how agents interact with external systems and environments.
+
+Includes:
+
+- API integrations  
+- Web search and browsing tools  
+- Database access (SQL / NoSQL)  
+- Function calling and structured outputs  
+- Action execution frameworks  
+
+Goal:
+
+> Enable agents to **act in the real world**, not just generate text.
 
 ## 3. What This Framework Covers
 
