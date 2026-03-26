@@ -310,27 +310,15 @@ Planned areas include:
 
 This framework takes an **enterprise-first approach** to Agentic AI.
 
-- Models can be impressive  
-- Agents can be powerful  
+- Models can be impressive, Agents can be powerful  
 
 But real impact requires:
 
-- Reliable systems  
-- Accountable decisions  
-- Valuable products  
-- Improved workflows  
-- Strong governance  
-- Sustainable business outcomes  
+- Reliable systems, Accountable decisions, Valuable products, Improved workflows, Strong governance, Sustainable business outcomes 
 
 Agentic AI should be used when it is:
 
-- Useful  
-- Governable  
-- Economically justified  
-- Operationally sound  
-- Strategically aligned  
-
-> **Frameworks make impact repeatable.**
+- Useful, Governable, Economically justified, Operationally sound, Strategically aligned  
 
 
 
