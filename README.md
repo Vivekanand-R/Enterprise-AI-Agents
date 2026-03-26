@@ -36,7 +36,7 @@ This framework is **not model-first**. It is:
 
 > **Problem-first • Workflow-first • Enterprise-first**
 
-It starts from real-world workflows, user intent, and business outcomes — and works backward to autonomy design, data, tools, orchestration, governance, and economics.
+It starts from real-world workflows, user intent, and business outcomes — and works to autonomy design, data, tools, orchestration, governance, and economics.
 
 ---
 
@@ -94,10 +94,9 @@ Agentic-AI-Framework/
 ├── risks_tradeoffs/
 ├── experiments/
 └── roadmap.md
+```
 
-'''
 
----
 
 ## 5. Use Cases (`use_cases/`)
 
