@@ -25,8 +25,9 @@ A multi-modal, AI-native observability platform that:
                 D. Optionally integrates Web3.0 concepts (blockchain-backed audit logs, decentralized knowledge sharing, privacy-preserving federated learning).
                 E. Embeds co-pilot mode, where AI works alongside human experts to explain, recommend, and even auto-remediate.
 
+**Architecture**
 
-<img width="431" height="678" alt="image" src="https://github.com/user-attachments/assets/ce6e4cd6-ec25-4c6d-8406-16fa2151c238" />
+<img width="1336" height="882" alt="image" src="https://github.com/user-attachments/assets/38f6e74a-932e-4647-82bd-f9bbc571f854" />
 
 
 **Core Capabilities**
