@@ -50,7 +50,7 @@ Each folder below represents a **standalone implementation of a specific agentic
 |----------------------------------|-------------------------------------------|--------------------------|---------------- |
 | agent-01-research Assistant      | Autonomous Research & Reasoning Agent     | Nemotron /llama 2(49b)   | ✅ Completed    |
 | agent-02-finance expert          | Multi-Agent Financial Analysis System     | CrewAI / Llama 3         | ✅ Completed    |
-| agent-05-observability expert    | Self-Healing Monitoring & Debugging Agent | LangGraph / Llama (8b)   | 🏗️ In Progress  |
+| agent-05-observability expert    | Self-Healing Monitoring & Debugging Agent | LangGraph / Llama (8b)   |     Completed , |
 | shared-lib                       | Utilities                                 | Python / Pydantic        | 🛠️ Core         |
 
 ---
