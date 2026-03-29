@@ -30,6 +30,12 @@ A multi-modal, AI-native observability platform that:
 <img width="1336" height="882" alt="image" src="https://github.com/user-attachments/assets/38f6e74a-932e-4647-82bd-f9bbc571f854" />
 
 
+**App User Interface:-**
+
+<img width="1902" height="945" alt="image" src="https://github.com/user-attachments/assets/8dee2d0d-c344-42f9-954d-915622a91299" />
+
+
+
 **Core Capabilities**
                 
                 A. Semantic & natural language log search.
