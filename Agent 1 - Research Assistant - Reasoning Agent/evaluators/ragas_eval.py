@@ -2,14 +2,11 @@ from __future__ import annotations
 
 import asyncio
 from typing import Any
-
 from datasets import Dataset
 from ragas import evaluate
 from ragas.metrics import answer_relevancy, context_precision, context_recall, faithfulness
-
 from app.agent import ResearchAgent
 from evaluators.dataset import load_jsonl
-
 
 def _build_rows(dataset_path: str) -> list[dict[str, Any]]:
     agent = ResearchAgent()

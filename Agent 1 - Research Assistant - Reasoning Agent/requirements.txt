@@ -13,3 +13,4 @@ ragas==0.3.2
 datasets==3.5.0
 mcp[cli]==1.26.0
 sse-starlette==2.2.1
+tiktoken
