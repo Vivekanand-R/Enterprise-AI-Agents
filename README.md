@@ -48,9 +48,9 @@ Each folder below represents a **standalone implementation of a specific agentic
 
 | Project Folder                   | Agent Type                                | Tech Stack               | Status          |
 |----------------------------------|-------------------------------------------|--------------------------|---------------- |
-| agent-01-research Assistant      | Autonomous Research & Reasoning Agent     | LangGraph / OpenAI       | ✅ Completed    |
+| agent-01-research Assistant      | Autonomous Research & Reasoning Agent     | Nemotron /llama 2(49b)   | ✅ Completed    |
 | agent-02-finance expert          | Multi-Agent Financial Analysis System     | CrewAI / Llama 3         | ✅ Completed    |
-| agent-05-observability expert    | Self-Healing Monitoring & Debugging Agent | AutoGen / GPT-4o         | 🏗️ In Progress  |
+| agent-05-observability expert    | Self-Healing Monitoring & Debugging Agent | LangGraph / Llama (8b)   | 🏗️ In Progress  |
 | shared-lib                       | Utilities                                 | Python / Pydantic        | 🛠️ Core         |
 
 ---
