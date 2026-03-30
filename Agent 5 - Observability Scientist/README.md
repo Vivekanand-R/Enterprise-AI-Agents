@@ -29,6 +29,29 @@ A multi-modal, AI-native observability platform that:
 
 <img width="1336" height="882" alt="image" src="https://github.com/user-attachments/assets/38f6e74a-932e-4647-82bd-f9bbc571f854" />
 
+    -  Frontend: Next.js (custom observability console)
+    -  Backend: FastAPI
+    -  Agent Layer: LangGraph
+    -  Workflow Engine: Temporal
+    -  Storage: ClickHouse
+    -  Prediction Engine: River + StatsForecast
+    -  Model Serving: vLLM (Llama 3)
+    -  Ingestion: OpenTelemetry + Fluent Bit
+    -  Actions: MCP-based tool integrations
+
+
+**Quick Start**
+
+docker compose up --build
+
+Then:
+
+    UI → http://localhost:3000
+    
+    API → http://localhost:8005/docs
+    
+    Temporal → http://localhost:8233
+
 
 **App User Interface:-**
 
