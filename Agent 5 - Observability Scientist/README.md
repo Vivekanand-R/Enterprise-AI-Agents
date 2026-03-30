@@ -62,9 +62,9 @@ Then:
 **Core Capabilities**
                 
                 A. Semantic & natural language log search.
-                B. Multi-modal input (logs, metrics, traces, images, video, voice).
+                B. Multi-modal input (logs, metrics, traces).
                 C. AI clustering, anomaly detection & root cause analysis.
-                D. Predictive failure insights & digital twin simulations.
+                D. Predictive failure insights
                 E. Explainable AI with plain-language summaries.
                 F. Auto-remediation guidance + compliance reporting.
                 G. Blockchain-backed immutable logs (optional).
