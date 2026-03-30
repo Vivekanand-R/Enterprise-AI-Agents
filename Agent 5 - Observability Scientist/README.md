@@ -1,5 +1,5 @@
 
- **Agent 5: AI Log Viewer for Industry 5.0 [In Progress]**
+ **Agent 5: AI Log Viewer for Industry 5.0**
 
 **Value Tagline:** Predict, explain, and resolve — the future of observability for Industry 5.0
 
