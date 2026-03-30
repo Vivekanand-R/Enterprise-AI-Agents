@@ -1,0 +1,113 @@
+services:
+  clickhouse:
+    image: clickhouse/clickhouse-server:24.8
+    ports:
+      - "8123:8123"
+      - "9000:9000"
+    environment:
+      CLICKHOUSE_DB: observability
+      CLICKHOUSE_USER: app_user
+      CLICKHOUSE_PASSWORD: app_password
+    volumes:
+      - clickhouse_data:/var/lib/clickhouse
+
+  postgres:
+    image: postgres:13
+    environment:
+      POSTGRES_USER: temporal
+      POSTGRES_PASSWORD: temporal
+      POSTGRES_DB: temporal
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U temporal -d temporal"]
+      interval: 5s
+      timeout: 5s
+      retries: 20
+
+  temporal:
+    image: temporalio/auto-setup:1.25.1
+    environment:
+      DB: postgres12
+      DB_PORT: 5432
+      POSTGRES_USER: temporal
+      POSTGRES_PWD: temporal
+      POSTGRES_DB: temporal
+      POSTGRES_SEEDS: postgres
+    depends_on:
+      postgres:
+        condition: service_healthy
+    ports:
+      - "7233:7233"
+
+  temporal-ui:
+    image: temporalio/ui:2.31.2
+    environment:
+      TEMPORAL_ADDRESS: temporal:7233
+    ports:
+      - "8233:8080"
+    depends_on:
+      - temporal
+
+  mailhog:
+    image: mailhog/mailhog:v1.0.1
+    ports:
+      - "8025:8025"
+      - "1025:1025"
+
+  backend:
+    build:
+      context: ./backend
+    env_file:
+      - .env
+    ports:
+      - "8005:8000"
+    depends_on:
+      - clickhouse
+      - temporal
+      - mailhog
+    volumes:
+      - ./backend:/app
+
+  recommendation:
+    build:
+      context: ./recommendation
+    env_file:
+      - .env
+    ports:
+      - "8100:8100"
+    depends_on:
+      - clickhouse
+    volumes:
+      - ./recommendation:/app
+
+  worker:
+    build:
+      context: ./backend
+    env_file:
+      - .env
+    depends_on:
+      - temporal
+      - mailhog
+    command: ["python", "-m", "app.workers.worker"]
+    volumes:
+      - ./backend:/app
+
+  frontend:
+    build:
+      context: ./frontend
+    env_file:
+      - .env
+    ports:
+      - "3000:3000"
+    depends_on:
+      - backend
+    volumes:
+      - ./frontend:/app
+      - /app/node_modules
+
+volumes:
+  clickhouse_data:
+  postgres_data:
