@@ -25,6 +25,23 @@ A multi-modal, AI-native observability platform that:
                 D. Optionally integrates Web3.0 concepts (blockchain-backed audit logs, decentralized knowledge sharing, privacy-preserving federated learning).
                 E. Embeds co-pilot mode, where AI works alongside human experts to explain, recommend, and even auto-remediate.
 
+**vLLM:-**
+
+vLLM is a high-throughput inference and serving engine for LLMs, leveraging PagedAttention for efficient KV cache management via virtual memory-style paging to eliminate fragmentation and enable dynamic batching.
+
+Core Architecture: Multi-process design with LLMEngine orchestrating tokenization, priority-based scheduling (FCFS with look-ahead), and distributed model execution across GPU workers using tensor parallelism.
+
+PagedAttention: Divides KV cache into fixed-size non-contiguous blocks (like OS pages), tracked via block tables; attention computes over scattered blocks using CUDA kernels, achieving near-zero waste and 2-4x throughput gains over systems like FasterTransformer.
+
+Optimizations: Continuous batching integrates new requests mid-decoding; supports prefix caching, FlashAttention-3 integration, torch.compile, and multimodal models; scales via tensor/sequence parallelism on NVIDIA GPUs.
+
+**Key Components:**
+
+    - Scheduler: Prioritizes requests by arrival time and remaining tokens.
+    - KV Cache Manager: Handles block allocation/deallocation.
+    - Model Runner: Executes forward passes with optimized kernels (e.g., for AWQ/GPTQ quantization)
+
+
 **Architecture**
 
 <img width="1336" height="882" alt="image" src="https://github.com/user-attachments/assets/38f6e74a-932e-4647-82bd-f9bbc571f854" />
