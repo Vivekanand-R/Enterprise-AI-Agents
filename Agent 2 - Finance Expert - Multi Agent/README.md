@@ -97,8 +97,7 @@ Gemma 4 is an open-weight transformer-based LLM designed by Google, optimized fo
 
 **8. Architecture: (More Autonomous Execution):**
 
-<img width="1017" height="673" alt="image" src="https://github.com/user-attachments/assets/0a699469-f35d-47b2-a9d1-69a836dbb481" />
-
+<img width="1028" height="676" alt="image" src="https://github.com/user-attachments/assets/0dd5c7bf-752d-440e-ab42-ced600994457" />
 
 **9. Output Format:-**
 
