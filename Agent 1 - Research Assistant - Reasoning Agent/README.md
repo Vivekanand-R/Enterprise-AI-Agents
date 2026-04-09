@@ -30,4 +30,4 @@ Did retrieval bring the right evidence | how response use that evidence | How re
 Model Used:-
 
  - LLM_MODEL=Llama-3_3-Nemotron-Super-49B-v1_5
- - EMBEDDING_MODEL=nvidia/nv-embedqa-e5-v5
+ - EMBEDDING_MODEL=nvidia/nv-embedqa-e5-v5 (Fine-tuned E5-Large-Unsupervised retriever)
