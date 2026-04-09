@@ -3,16 +3,47 @@
 
 Vision: To explore and harness agentic AI in global financial markets using **cloud-native infrastructure** for real-time, intelligent fintech actions. Enabling precision and speed through scalable, autonomous decision-making.
 
-**Agents Building Blocks:** Data Ingestion, Indexing, Brain, Memory, Tools, Action and Feedback. 
+**1. Agents Building Blocks:** Data Ingestion, Indexing, Brain, Memory, Tools, Action and Feedback. 
+
+**2. High-Level Architecture**
+
+**2.1 Agents**
+
+The system have three primary agents.
+
+**A. Technical Analysis Agent**
+
+Responsible for:
+
+- validating stock ticker
+- fetching OHLCV and related market data from Yahoo Finance
+- computing 15 technical indicators
+- interpreting current market structure
+- scoring the stock from a technical perspective
+
+**B. Macro / News / Weather / Events Agent**
+
+Responsible for:
+
+- analyzing recent India-relevant market news
+- analyzing domestic and global events affecting Indian indices
+- incorporating weather-related factors where materially relevant to sectors or markets
+- generating a market context score and rationale
+
+**C. Judge Agent**
+
+Responsible for:
+
+- receiving outputs from the two agents
+- resolving conflicts between them
+- applying decision rules and LLM judgment
+- producing final verdict: Buy/Watch/Avoid
+- generating a concise explanation for email delivery
 
 
-**Architecture: (More Autonomous Execution):**
+**3. State Tracking**
 
-<img width="793" height="531" alt="image" src="https://github.com/user-attachments/assets/90015ded-1576-4a3d-a7f4-97324ca75164" />
-
-**State Tracking**
-
-State must persist:
+State will persist:
 
 - graph checkpoints
 - per-node inputs/outputs
@@ -22,7 +53,7 @@ State must persist:
 - failure cause
 - final recommendation lifecycle
        
-**Guardrails**
+**4. Guardrails**
 
 The system will implement:
 
@@ -34,7 +65,7 @@ The system will implement:
 - hard limits on unsupported claims
 - safe fallback when insufficient evidence exists
 
-**Data Governance**
+**5. Data Governance**
 
 Recommended controls:
 
@@ -45,13 +76,20 @@ Recommended controls:
 - access-controlled secrets handling
 - audit trail for recommendation generation
 
-Microsoft Presidio is a reasonable governance component; it is an open-source SDK for detecting, masking, redacting, and anonymizing PII across text, images, and structured data.
+Microsoft Presidio is a reasonable governance component; it is an open-source SDK for detecting, masking, redacting, and anonymizing PII across text, images, and structured data. Here it is used for data governance—to detect and redact sensitive information in inputs, logs, and email outputs. To ensure privacy, compliance, and safe LLM usage in your pipeline.
 
-**Logging and Observability**
+**6. Logging and Observability**
 
 OpenTelemetry for application-level telemetry and LangSmith for LLM/agent traces.
 
 OpenTelemetry is a vendor-neutral observability framework for generating, collecting, and exporting traces, metrics, and logs, and Python support includes telemetry for traces, metrics, and logs.
 
-  
------------------------------------------------
+**7. Architecture: (More Autonomous Execution):**
+
+<img width="793" height="531" alt="image" src="https://github.com/user-attachments/assets/90015ded-1576-4a3d-a7f4-97324ca75164" />
+
+**8. Output Format:-**
+
+<img width="561" height="357" alt="image" src="https://github.com/user-attachments/assets/87f7eb2d-14f5-4c9e-aac7-88a50781dac7" />
+
+Potential Scope of Innovative FinTech Solutions, Data Governance, Automation and Use Cases
