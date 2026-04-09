@@ -84,12 +84,23 @@ OpenTelemetry for application-level telemetry and LangSmith for LLM/agent traces
 
 OpenTelemetry is a vendor-neutral observability framework for generating, collecting, and exporting traces, metrics, and logs, and Python support includes telemetry for traces, metrics, and logs.
 
-**7. Architecture: (More Autonomous Execution):**
+**7. Stack:**
 
-<img width="793" height="531" alt="image" src="https://github.com/user-attachments/assets/90015ded-1576-4a3d-a7f4-97324ca75164" />
+- LLMs: Gemma instead of Gemini
+- Storage: PostgreSQL
+- Orchestration: LangGraph
+- Governance: Presidio
+- Deployment: local first, then Kubernetes if needed
 
-**8. Output Format:-**
+Gemma 4 is an open-weight transformer-based LLM designed by Google, optimized for efficient inference across local and cloud environments. It uses decoder-only architecture with instruction tuning, enabling tasks like reasoning, summarization, and structured generation. It comes in multiple sizes (e.g., ~2B to ~30B+ parameters), balancing performance vs compute cost for different deployment scenarios.
+
+
+**8. Architecture: (More Autonomous Execution):**
+
+<img width="1017" height="673" alt="image" src="https://github.com/user-attachments/assets/0a699469-f35d-47b2-a9d1-69a836dbb481" />
+
+
+**9. Output Format:-**
 
 <img width="561" height="357" alt="image" src="https://github.com/user-attachments/assets/87f7eb2d-14f5-4c9e-aac7-88a50781dac7" />
 
-Potential Scope of Innovative FinTech Solutions, Data Governance, Automation and Use Cases
