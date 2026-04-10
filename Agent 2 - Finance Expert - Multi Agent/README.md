@@ -76,7 +76,7 @@ Recommended controls:
 - access-controlled secrets handling
 - audit trail for recommendation generation
 
-Microsoft Presidio is a reasonable governance component; it is an open-source SDK for detecting, masking, redacting, and anonymizing PII across text, images, and structured data. Here it is used for data governance—to detect and redact sensitive information in inputs, logs, and email outputs. To ensure privacy, compliance, and safe LLM usage in your pipeline.
+Microsoft Presidio is a reasonable governance component; it is an open-source SDK for detecting, masking, redacting, and anonymizing PII across text, images, and structured data. Here it is used for data governance—to detect and redact sensitive information in inputs, logs, and email outputs. To ensure privacy, compliance, and safe LLM usage in the pipeline.
 
 **6. Logging and Observability**
 
