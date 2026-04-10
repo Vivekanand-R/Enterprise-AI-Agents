@@ -95,9 +95,9 @@ OpenTelemetry is a vendor-neutral observability framework for generating, collec
 Gemma 4 is an open-weight transformer-based LLM designed by Google, optimized for efficient inference across local and cloud environments. It uses decoder-only architecture with instruction tuning, enabling tasks like reasoning, summarization, and structured generation. It comes in multiple sizes (e.g., ~2B to ~30B+ parameters), balancing performance vs compute cost for different deployment scenarios.
 
 
-**8. Architecture: (More Autonomous Execution):**
+**8. Agentic Architecture: (More Autonomous Execution):**
 
-<img width="1028" height="676" alt="image" src="https://github.com/user-attachments/assets/0dd5c7bf-752d-440e-ab42-ced600994457" />
+<img width="1032" height="620" alt="image" src="https://github.com/user-attachments/assets/8b6c5e20-9a4c-4265-a53a-1a9d4f5cd7d0" />
 
 **9. Output Format:-**
 
