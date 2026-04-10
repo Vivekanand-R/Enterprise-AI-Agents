@@ -79,6 +79,9 @@ Then:
 
 <img width="1541" height="393" alt="image" src="https://github.com/user-attachments/assets/30319add-a3a8-4a36-b2c2-16a11559fb77" />
 
+<img width="1012" height="677" alt="image" src="https://github.com/user-attachments/assets/185cfe4f-e988-4e37-9384-7ee424386bd4" />
+
+
 **Core Capabilities**
                 
                 A. Semantic & natural language log search.
