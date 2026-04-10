@@ -75,6 +75,9 @@ Then:
 <img width="1902" height="945" alt="image" src="https://github.com/user-attachments/assets/8dee2d0d-c344-42f9-954d-915622a91299" />
 
 
+**Azure Tech Stack (For Cloud Hosting):-**
+
+<img width="1541" height="393" alt="image" src="https://github.com/user-attachments/assets/30319add-a3a8-4a36-b2c2-16a11559fb77" />
 
 **Core Capabilities**
                 
