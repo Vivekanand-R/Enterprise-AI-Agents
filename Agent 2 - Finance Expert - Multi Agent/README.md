@@ -17,7 +17,7 @@ Responsible for:
 
 - validating stock ticker
 - fetching OHLCV and related market data from Yahoo Finance
-- computing 15 technical indicators
+- computing 15-100 technical indicators
 - interpreting current market structure
 - scoring the stock from a technical perspective
 
@@ -101,5 +101,9 @@ Gemma 4 is an open-weight transformer-based LLM designed by Google, optimized fo
 
 **9. Output Format:-**
 
-<img width="561" height="357" alt="image" src="https://github.com/user-attachments/assets/87f7eb2d-14f5-4c9e-aac7-88a50781dac7" />
+<img width="402" height="262" alt="image" src="https://github.com/user-attachments/assets/0cff82c6-2351-4247-b044-fe592b8d955b" />
+
+This system is designed to explore innovative applications of AI in financial analysis and decision support. It demonstrates how multi-agent architectures can enhance insights and efficiency in fintech workflows.
+
+
 
