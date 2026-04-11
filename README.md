@@ -1,6 +1,6 @@
-# Agentic AI  
+# Enterprise AI Agent Platform for Decision Intelligence
 
-**Designing, Building, and Scaling Agentic AI Systems, Products, and Organizations**
+**Designing, Building, and Scaling Agentic Enterprise AI Systems and Products**
 
 ---
 
