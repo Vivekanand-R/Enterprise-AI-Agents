@@ -4,7 +4,7 @@
 
 # Functional
 
-**1. Customer Obsession**
+**1. Customer**
 
 Who is the user?
 Knowledge workers across the enterprise, including product managers, analysts, support engineers, and business teams who need to quickly gather insights, validate hypotheses, and make informed decisions.
