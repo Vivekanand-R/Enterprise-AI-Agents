@@ -1,5 +1,7 @@
 
- **Agent 5: AI Log Viewer for Industry 5.0**
+**Observability Agent (Monitoring & Intelligence)**
+
+**Problem Statement:-** Modern systems generate massive volumes of logs and metrics, making it difficult to detect and diagnose issues in a timely manner. Traditional monitoring tools rely heavily on rule-based alerts, leading to high false positives and delayed root cause identification. There is a need for an intelligent observability system that can proactively detect anomalies, explain issues, and recommend actions.
 
 **Value Tagline:** Predict, explain, and resolve — the future of observability for Industry 5.0
 
