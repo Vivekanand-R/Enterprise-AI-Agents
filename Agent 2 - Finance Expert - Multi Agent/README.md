@@ -1,7 +1,7 @@
                       
  **Agent 2 - Finance Agent (Decision Intelligence)**
 
- **Problem Statement:-** Financial and product decisions are often made using disconnected datasets and manual analysis, resulting in delayed insights and suboptimal outcomes. Organizations lack a unified system that can combine product, sales, and cost data to provide real-time, AI-driven recommendations. This creates a gap in aligning financial strategy with operational realities.
+ **Problem Statement:-** Financial and product decisions are often made using disconnected datasets and manual analysis, resulting in delayed insights and suboptimal outcomes. Organizations need a unified system that can combine product, sales, and cost data to provide real-time, AI-driven recommendations. This creates a gap in aligning financial strategy with operational realities.
 
 Vision: To explore and harness agentic AI in global financial markets using **cloud-native infrastructure** for real-time, fintech actions. Enabling precision and speed through scalable, autonomous decision-making.
 
