@@ -32,7 +32,7 @@
 
 - How components interact: The observability agent acts as the entry point of the platform by continuously monitoring system data and triggering events. Detected anomalies are passed to downstream agents such as the research agent for root cause analysis and the finance agent for business impact evaluation.
 
-- Extensibility:The agent can be extended to support additional data sources such as real-time streaming pipelines, cloud-native monitoring tools, and application performance metrics. It can also integrate with automated remediation systems for future autonomous operations.
+- Extensibility:The agent can be extended to support additional data sources such as real-time streaming pipelines, cloud-native monitoring tools, and application performance metrics. It can also integrate with automated remediation systems for future autonomous operations. The agent can be extended to support advanced financial use cases such as pricing optimization, demand forecasting, investment planning, and scenario-based simulations. It can integrate with enterprise financial systems (ERP, CRM) and evolve into a comprehensive financial intelligence layer within the platform.
 
 ## Value Metrics
 
