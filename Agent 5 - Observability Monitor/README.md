@@ -1,7 +1,40 @@
 
-**Observability Agent (Monitoring & Intelligence)**
+## Observability Agent (Monitoring & Intelligence)
 
 **Problem Statement:-** Modern systems generate massive volumes of logs and metrics, making it difficult to detect and diagnose issues in a timely manner. Traditional monitoring tools rely heavily on rule-based alerts, leading to high false positives and delayed root cause identification. There is a need for an intelligent observability system that can proactively detect anomalies, explain issues, and recommend actions.
+
+## Functional Product Metrics
+
+**1. Customer**
+
+- **Who is the user?.** DevOps engineers, SRE teams, and support engineers responsible for maintaining system reliability and uptime across enterprise platforms.
+
+- **What problem is solved?.** Users struggle with overwhelming volumes of logs and metrics, leading to delayed issue detection and slow root cause identification. Existing monitoring tools generate excessive alerts without actionable insights, forcing teams to spend significant time on manual investigation.
+
+**2. Scenario Thinking**
+
+- End-to-end workflow: - The system continuously ingests logs and metrics from enterprise applications. When abnormal patterns such as latency spikes or error rate increases are detected, the agent identifies the anomaly, analyzes patterns, and generates an alert with contextual insights and probable causes.
+
+- Not just components:- Instead of relying on static rule-based alerts, the agent provides an intelligent monitoring flow that detects, analyzes, and prioritizes issues, reducing the need for manual log inspection and reactive troubleshooting.
+
+**3. Business Impact**
+
+- Why does this matter?. Delayed detection of system issues leads to downtime, degraded user experience, and potential revenue loss. Inefficient alerting systems also increase operational costs and engineer workload.
+
+- What metric improves?
+    
+    - Reduction in Mean Time to Detect (MTTD)
+    - Reduction in Mean Time to Resolve (MTTR)
+    - Decrease in false positive alerts
+    - Improvement in system uptime and reliability
+
+**4. Platform Thinking**
+
+- How components interact: The observability agent acts as the entry point of the platform by continuously monitoring system data and triggering events. Detected anomalies are passed to downstream agents such as the research agent for root cause analysis and the finance agent for business impact evaluation.
+
+- Extensibility:The agent can be extended to support additional data sources such as real-time streaming pipelines, cloud-native monitoring tools, and application performance metrics. It can also integrate with automated remediation systems for future autonomous operations.
+
+## Value Metrics
 
 **Value Tagline:** Predict, explain, and resolve — the future of observability for Industry 5.0
 
@@ -26,6 +59,8 @@ A multi-modal, AI-native observability platform that:
                 C. Presents findings in natural language & interactive visualizations, accessible to both engineers and non-technical operators.
                 D. Optionally integrates Web3.0 concepts (blockchain-backed audit logs, decentralized knowledge sharing, privacy-preserving federated learning).
                 E. Embeds co-pilot mode, where AI works alongside human experts to explain, recommend, and even auto-remediate.
+
+## Technical Depth
 
 **vLLM:-**
 
