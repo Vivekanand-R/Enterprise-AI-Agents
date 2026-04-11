@@ -6,11 +6,9 @@
 
 **1. Customer**
 
-Who is the user?
-Knowledge workers across the enterprise, including product managers, analysts, support engineers, and business teams who need to quickly gather insights, validate hypotheses, and make informed decisions.
+**Who is the user?.** Knowledge workers across the enterprise, including product managers, analysts, support engineers, and business teams who need to quickly gather insights, validate hypotheses, and make informed decisions.
 
-What pain is solved?
-Users spend significant time searching across multiple tools such as documentation, dashboards, reports, and external sources. Information is fragmented, and existing tools lack the ability to understand context, synthesize insights, and provide actionable answers.
+**What problem is solved?.** Users spend significant time searching across multiple tools such as documentation, dashboards, reports, and external sources. Information is fragmented, and existing tools lack the ability to understand context, synthesize insights, and provide actionable answers.
 
 **2. Scenario Thinking**
 
@@ -32,9 +30,9 @@ Slow and inconsistent access to insights leads to delayed decisions, increased o
 
 **4. Platform Thinking**
 
-- **How components interact - ** The research agent acts as a central reasoning layer that can consume inputs from multiple sources, including outputs from the observability agent and enterprise data systems. It synthesizes this information into structured insights that can be used directly by users or passed to other agents such as the finance agent.
+- **How components interact:-** The research agent acts as a central reasoning layer that can consume inputs from multiple sources, including outputs from the observability agent and enterprise data systems. It synthesizes this information into structured insights that can be used directly by users or passed to other agents such as the finance agent.
 
-- **Extensibility -** The agent can be extended to support multiple domains such as market research, customer insights, financial analysis, and operational intelligence. It can integrate with enterprise systems, APIs, and external knowledge bases, evolving into a unified enterprise copilot.
+- **Extensibility:-** The agent can be extended to support multiple domains such as market research, customer insights, financial analysis, and operational intelligence. It can integrate with enterprise systems, APIs, and external knowledge bases, evolving into a unified enterprise copilot.
 
 
 ## Technical Depth 
