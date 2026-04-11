@@ -3,7 +3,7 @@
 
  **Problem Statement:-** Financial and product decisions are often made using disconnected datasets and manual analysis, resulting in delayed insights and suboptimal outcomes. Organizations lack a unified system that can combine product, sales, and cost data to provide real-time, AI-driven recommendations. This creates a gap in aligning financial strategy with operational realities.
 
-Vision: To explore and harness agentic AI in global financial markets using **cloud-native infrastructure** for real-time, intelligent fintech actions. Enabling precision and speed through scalable, autonomous decision-making.
+Vision: To explore and harness agentic AI in global financial markets using **cloud-native infrastructure** for real-time, fintech actions. Enabling precision and speed through scalable, autonomous decision-making.
 
 **1. Agents Building Blocks:** Data Ingestion, Indexing, Brain, Memory, Tools, Action and Feedback. 
 
