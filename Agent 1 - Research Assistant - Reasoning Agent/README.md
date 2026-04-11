@@ -1,4 +1,6 @@
 
+**Problem Statement:-** Enterprise teams struggle to extract actionable insights from fragmented data sources such as logs, documents, and knowledge bases. Existing tools require manual search and lack contextual understanding, leading to slow and inconsistent decision-making. There is a need for an intelligent system that can unify data, reason across contexts, and deliver precise answers in real time.
+
 Design notes:-
 
 - Nemotron for reasoning and summarization
