@@ -1,6 +1,6 @@
 ## Research Agent (Reasoning / RAG)
 
-**Problem Statement:-** Enterprise teams need to extract actionable insights from fragmented data sources such as logs, documents, and knowledge bases. Existing tools require manual search and lack contextual understanding, leading to slow and inconsistent decision-making. There is a need for an system that can unify data, reason across contexts, and deliver precise answers in real time.
+**Problem Statement:-** Enterprise teams need to extract actionable insights from fragmented data sources such as logs, documents, and knowledge bases. Existing tools require manual search and need more contextual understanding, leading to slow and inconsistent decision-making. There is a need for an system that can unify data, reason across contexts, and deliver precise answers in real time.
 
 # Functional
 
@@ -8,7 +8,7 @@
 
 **Who is the user?.** Knowledge workers across the enterprise, including product managers, analysts, support engineers, and business teams who need to quickly gather insights, validate hypotheses, and make informed decisions.
 
-**What problem is solved?.** Users spend significant time searching across multiple tools such as documentation, dashboards, reports, and external sources. Information is fragmented, and existing tools lack the ability to understand context, synthesize insights, and provide actionable answers.
+**What problem is solved?.** Users spend significant time searching across multiple tools such as documentation, dashboards, reports, and external sources. Information is fragmented, and existing tools need the ability to understand context, synthesize insights, and provide actionable answers.
 
 **2. Scenario Thinking**
 
@@ -35,7 +35,7 @@ Slow and inconsistent access to insights leads to delayed decisions, increased o
 - **Extensibility:-** The agent can be extended to support multiple domains such as market research, customer insights, financial analysis, and operational intelligence. It can integrate with enterprise systems, APIs, and external knowledge bases, evolving into a unified enterprise copilot.
 
 
-## Technical Depth 
+## Technical 
 
 Design notes:-
 
