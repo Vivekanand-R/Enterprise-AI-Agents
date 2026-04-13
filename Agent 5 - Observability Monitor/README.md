@@ -114,6 +114,46 @@ Then:
 
 **Azure Tech Stack (For Cloud Hosting):-**
 
+
+      1. Resource Group
+      2. Azure Container Registry
+      3. Build and push your Docker image
+      4. Container Apps Environment
+      5. Scheduled Container Apps Job
+      6. Add environment variables securely
+      7. Test it
+      8. Run on schedule
+      9. View logs
+
+
+**Prompts:-**
+
+az account show
+
+az login --use-device-code
+
+**Confirm the registry is reachable**
+
+az acr show --name <ACR_NAME> --output table
+
+**Log in to the registry**
+
+az acr login --name <ACR_NAME>
+
+**Build and test locally**
+
+docker build -t <IMAGE_NAME>:latest .
+
+docker run --rm --env-file .env -v "${PWD}/<LOCAL_FILE>:/app/<CONTAINER_FILE>" <IMAGE_NAME>:latest python -m <MODULE_PATH> --stocks-file <CONTAINER_FILE>
+
+**Tag and push to ACR**
+
+az acr login --name <ACR_NAME>
+
+docker tag <IMAGE_NAME>:latest <ACR_NAME>.azurecr.io/<IMAGE_NAME>:latest
+
+docker push <ACR_NAME>.azurecr.io/<IMAGE_NAME>:latest
+
 <img width="1541" height="393" alt="image" src="https://github.com/user-attachments/assets/30319add-a3a8-4a36-b2c2-16a11559fb77" />
 
 <img width="1012" height="677" alt="image" src="https://github.com/user-attachments/assets/185cfe4f-e988-4e37-9384-7ee424386bd4" />
