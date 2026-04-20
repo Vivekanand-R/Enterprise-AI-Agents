@@ -181,7 +181,7 @@ Optimizations: Continuous batching integrates new requests mid-decoding; support
 
 Overall, an observability log viewer with efficient log search, rolling-window analytics, top-K error aggregation, rate limiting, cached queries and service dependency analysis. Core techniques were inspired by classic problems such as Trie, Sliding Window Maximum, LRU Cache, Logger Rate Limiter, Time-Based Key-Value Store and graph traversal.
 
-Leet code similar challenges for further Implementations:- 3, 76, 239, 438, 424, 347, 692, 973, 295, 23, 56, 57, 435, 253, 729, 208, 211, 212, 648, 20, 155, 739, 84, 224, 394, 200, 133, 207, 210, 743, 684, 721, 399, 704, 33, 34, 981, 146, 460, 380, 362, 359, 271, 297
+This project leverages patterns inspired by well known LeetCode problems to build efficient log processing features.
 
 **Quick Start**
 
