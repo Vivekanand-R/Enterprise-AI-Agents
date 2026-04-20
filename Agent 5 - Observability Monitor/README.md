@@ -94,6 +94,98 @@ Optimizations: Continuous batching integrates new requests mid-decoding; support
     -  Actions: MCP-based tool integrations
 
 
+## Optimization Techniques
+
+1) Sliding window and streaming logs
+
+- Longest Substring Without Repeating Characters
+- Shows sliding window basics for unique event/session tracking.
+- Minimum Window Substring
+- Good for “find smallest log segment containing all required signals”.
+- Sliding Window Maximum
+- Excellent for rolling peak error rate / latency windows.
+- Find All Anagrams in a String
+- Longest Repeating Character Replacement
+- Good for window maintenance and frequency counting under constraints.
+
+[Logs were continuous and often need “last 5 minutes / last 1 hour” Rolling metrics.]
+
+2) Heap / Top-K for frequent errors and noisy alerts
+
+- Top K Frequent Elements
+- Top K Frequent Wordsprob
+- K Closest Points to Origin
+- Find Median from Data Stream
+- Merge K Sorted Lists
+
+[Top 10 error messages, top noisy services, top items causing failures, rolling median latency]
+
+3) Interval problems for time ranges 
+
+- Merge Intervals
+- Insert Interval
+- Non-overlapping Intervals
+- Meeting Rooms II
+- My Calendar I
+
+[Since Logs and traces are heavily time-based, interval problems needs to be addresses]
+
+4. Trie / string indexing for log search
+
+- Implement Trie (Prefix Tree)
+- Design Add and Search Words Data Structure
+- Word Search II
+- Replace Words
+
+5. Stack problems for parsing logs and queries
+
+- Valid Parentheses
+- Min Stack
+- Daily Temperatures
+- Largest Rectangle in Histogram
+- Basic Calculator
+- Decode String
+
+6. Graph problems for service dependency maps
+
+- Number of Islands
+- Clone Graph
+- Course Schedule
+- Course Schedule II
+- Network Delay Time
+- Redundant Connection
+- Accounts Merge
+- Evaluate Division
+
+[Modern observability tools need service dependency graphs and root-cause paths]
+
+7. Binary search for fast query response
+
+- Binary Search
+- Search in Rotated Sorted Array
+- Find First and Last Position of Element in Sorted Array
+- Time Based Key-Value Store
+- Koko Eating Bananas
+
+[Time Based Key-Value Store is especially strong because it maps well to timestamped log/event retrieval]
+
+8. Design problems
+
+- LRU Cache
+- LFU Cache
+- Insert Delete GetRandom O(1)
+- Design Hit Counter
+- Logger Rate Limiter
+- Time Based Key-Value Store
+- Encode and Decode Strings
+- Serialize and Deserialize Binary Tree
+
+[Retrival / Storage thinking]
+
+Overall, an observability log viewer with efficient log search, rolling-window analytics, top-K error aggregation, rate limiting, cached queries and service dependency analysis. Core techniques were inspired by classic problems such as Trie, Sliding Window Maximum, LRU Cache, Logger Rate Limiter, Time-Based Key-Value Store and graph traversal.
+
+Leet code similar challenges for further Implementations:- 3, 76, 239, 438, 424, 347, 692, 973, 295, 23, 56, 57, 435, 253, 729, 208, 211, 212, 648, 20, 155, 739, 84, 224, 394, 200, 133, 207, 210, 743, 684, 721, 399, 704, 33, 34, 981, 146, 460, 380, 362, 359, 271, 297
+
 **Quick Start**
 
 docker compose up --build
@@ -117,7 +209,7 @@ Then:
 
       1. Resource Group
       2. Azure Container Registry
-      3. Build and push your Docker image
+      3. Build and push Docker image
       4. Container Apps Environment
       5. Scheduled Container Apps Job
       6. Add environment variables securely
