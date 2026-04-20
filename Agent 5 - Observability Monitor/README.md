@@ -101,14 +101,13 @@ Optimizations: Continuous batching integrates new requests mid-decoding; support
 - Longest Substring Without Repeating Characters
 - Shows sliding window basics for unique event/session tracking.
 - Minimum Window Substring
-- Good for “find smallest log segment containing all required signals”.
+- Find smallest log segment containing all required signals.
 - Sliding Window Maximum
 - Excellent for rolling peak error rate / latency windows.
 - Find All Anagrams in a String
 - Longest Repeating Character Replacement
-- Good for window maintenance and frequency counting under constraints.
 
-[Logs were continuous and often need “last 5 minutes / last 1 hour” Rolling metrics.]
+[Rolling metrics]
 
 2) Heap / Top-K for frequent errors and noisy alerts
 
@@ -127,8 +126,6 @@ Optimizations: Continuous batching integrates new requests mid-decoding; support
 - Non-overlapping Intervals
 - Meeting Rooms II
 - My Calendar I
-
-[Since Logs and traces are heavily time-based, interval problems needs to be addresses]
 
 4. Trie / string indexing for log search
 
@@ -157,7 +154,7 @@ Optimizations: Continuous batching integrates new requests mid-decoding; support
 - Accounts Merge
 - Evaluate Division
 
-[Modern observability tools need service dependency graphs and root-cause paths]
+[Service dependency graphs and root cause paths]
 
 7. Binary search for fast query response
 
@@ -167,7 +164,7 @@ Optimizations: Continuous batching integrates new requests mid-decoding; support
 - Time Based Key-Value Store
 - Koko Eating Bananas
 
-[Time Based Key-Value Store is especially strong because it maps well to timestamped log/event retrieval]
+[Time Based Key Value Store]
 
 8. Design problems
 
@@ -180,7 +177,7 @@ Optimizations: Continuous batching integrates new requests mid-decoding; support
 - Encode and Decode Strings
 - Serialize and Deserialize Binary Tree
 
-[Retrival / Storage thinking]
+[Retrival/Storage thinking]
 
 Overall, an observability log viewer with efficient log search, rolling-window analytics, top-K error aggregation, rate limiting, cached queries and service dependency analysis. Core techniques were inspired by classic problems such as Trie, Sliding Window Maximum, LRU Cache, Logger Rate Limiter, Time-Based Key-Value Store and graph traversal.
 
